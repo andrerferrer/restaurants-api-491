@@ -34,6 +34,8 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'pundit'
+# This allows us to authenticate the user
+gem 'simple_token_authentication'
 
 
 group :development, :test do  gem 'pry-byebug'
